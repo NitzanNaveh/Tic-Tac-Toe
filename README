@@ -1,0 +1,35 @@
+
+Tic Tac Toe Game
+Overview
+This is a simple Tic Tac Toe game implemented in Kotlin using Android Studio. The game allows two players to take turns marking X or O on a 3x3 grid.
+The objective is to align three symbols in a row, column, or diagonal to win the game.
+
+Features
+Play Now: Start a new game of Tic Tac Toe.
+Play Again: Restart the game after it ends.
+Two-player mode: Play with a friend locally on the same device.
+Visual indicators for the current player's turn.
+Game result display: Announces the winner or a draw at the end of the game.
+
+Installation
+1. Clone or download this repository.
+
+2. Copy the following code
+git clone <repository-url>
+
+3. Open the project in Android Studio.
+4. Sync the Gradle files to install dependencies.
+5. Build and run the app on an emulator or a physical Android device.
+
+How to Play
+Tap the Play Now button on the home screen to start the game.
+Players take turns tapping on the grid to place their X or O.
+The first player to align three symbols in a row, column, or diagonal wins.
+If all grid spaces are filled and no player wins, the game ends in a draw.
+Tap the Play Again button to restart the game.
+
+
+Technologies Used
+Kotlin for programming language.
+Android Studio for app development.
+XML for designing the user interface.
