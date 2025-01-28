@@ -1,35 +1,50 @@
+🎮 Tic Tac Toe - Assignment 1
 
-Tic Tac Toe Game
-Overview
-This is a simple Tic Tac Toe game implemented in Kotlin using Android Studio. The game allows two players to take turns marking X or O on a 3x3 grid.
-The objective is to align three symbols in a row, column, or diagonal to win the game.
+📌 Overview
 
-Features
-Play Now: Start a new game of Tic Tac Toe.
-Play Again: Restart the game after it ends.
-Two-player mode: Play with a friend locally on the same device.
-Visual indicators for the current player's turn.
-Game result display: Announces the winner or a draw at the end of the game.
+Tic Tac Toe is a simple two-player game where players take turns marking X and O on a 3x3 grid. The goal is to get three marks in a row, column, or diagonal. This game is implemented as an Android app with a user-friendly interface.
 
-Installation
-1. Clone or download this repository.
+🎯 Features
 
-2. Copy the following code
-git clone <repository-url>
+🎲 Two-Player Game: Both players play on the same device.
 
-3. Open the project in Android Studio.
-4. Sync the Gradle files to install dependencies.
-5. Build and run the app on an emulator or a physical Android device.
+❌ Player X vs. Player O: The first player is "X," and the second player is "O."
 
-How to Play
-Tap the Play Now button on the home screen to start the game.
-Players take turns tapping on the grid to place their X or O.
-The first player to align three symbols in a row, column, or diagonal wins.
-If all grid spaces are filled and no player wins, the game ends in a draw.
-Tap the Play Again button to restart the game.
+🎉 Win Detection: The game detects a win or a draw.
 
+🔄 Play Again Button: Allows restarting the game without reopening the app.
 
-Technologies Used
-Kotlin for programming language.
-Android Studio for app development.
-XML for designing the user interface.
+📱 Simple UI: Designed for easy and quick gameplay.
+
+🛠 Technologies Used
+
+Kotlin (Android development language)
+
+Activities (Each screen is an Activity)
+
+ViewBinding (For UI interactions)
+
+🚀 Installation & Running the App
+
+1️⃣ Clone the Repository
+
+git clone https://github.com/NitzanNaveh/Tic-Tac-Toe.git
+cd Tic-Tac-Toe
+
+2️⃣ Open in Android Studio
+
+Open Android Studio.
+
+Click on "Open an Existing Project".
+
+Select the Tic-Tac-Toe folder.
+
+Wait for Gradle to sync.
+
+3️⃣ Run the App
+
+Connect an Android device (or use an Emulator).
+
+Click the Run button ▶️ in Android Studio.
+
+Select your device and start the game.
